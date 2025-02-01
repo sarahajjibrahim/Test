@@ -35,6 +35,15 @@ void displayStudents(struct Student students[], int count) {
     }
 }
 
+
+// Function to display all students
+void ddStudents(struct Student students[], int count) {
+    printf("HI")
+    for (int i = 0; i < count; i++) {
+        printf("ID: %d, Name: %s, Score: %.2f\n", students[i].id, students[i].name, students[i].score);
+    }
+}
+
  
 
 int main() {
