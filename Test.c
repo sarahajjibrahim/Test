@@ -19,9 +19,11 @@ void addStudent(struct Student students[], int *count) {
     printf("\nEnter Student ID: ");
     scanf("%d", &s.id);
     printf("Enter Student Name: ");
-    scanf("%d", &s.id);
     printf("Enter Student Score: ");
     scanf("%f", &s.score);
+
+    scanf("%f", &s.score);
+
 
     students[*count] = s;
     (*count)++;
