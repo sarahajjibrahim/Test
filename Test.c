@@ -35,20 +35,7 @@ void displayStudents(struct Student students[], int count) {
     }
 }
 
-// Function to calculate the average score of all students
-float calculateAverage(struct Student students[], int count) {
-    if (count == 0) {
-        printf("No students available to calculate average.\n");
-        return 0.0;
-    }
-
-    float total = 0.0;
-    for (int i = 0; i < count; i++) {
-        total += students[i].score;
-    }
-
-    return total / count;
-}
+ 
 
 int main() {
     struct Student students[100];  // Array to store up to 100 students
