@@ -58,7 +58,7 @@ void ddStudents(struct Student students[], int c) {
 void ddStudents(struct Student students[]) {
     printf("HI")
     for (int i = 0; i < count; i++) {
-        printf("ID: %d, Name: %s, Score: %.2f\n", students[i].id, students[i].name, students[i].score);
+        printf("ID: %d, Name: %s, Score: ok %.2f\n", students[i].id, students[i].name, students[i].score);
     }
 }
 
