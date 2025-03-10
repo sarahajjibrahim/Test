@@ -54,7 +54,14 @@ void ddStudents(struct Student students[], int c) {
     }
 }
 
- 
+// Function to display all students
+void ddStudents(struct Student students[]) {
+    printf("HI")
+    for (int i = 0; i < count; i++) {
+        printf("ID: %d, Name: %s, Score: %.2f\n", students[i].id, students[i].name, students[i].score);
+    }
+}
+
 
 int main() {
     struct Student students[100];  // Array to store up to 100 students
